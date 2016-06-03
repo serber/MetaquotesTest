@@ -9,7 +9,7 @@ namespace Metaquotes.Geo.ConsoleTest
     {
         static void Main(string[] args)
         {
-            DataBase database = DataBaseManager.Read(@"C:\Users\azakiev\Desktop\Metaquotes\geobase.dat");
+            DataBase database = DataBaseManager.Read(@"geobase.dat");
             //---
             Console.WriteLine($"Database loaded in {database.LoadTime} ms.");
             //---
